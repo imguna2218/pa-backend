@@ -1,0 +1,24 @@
+fastapi==0.111.0
+uvicorn[standard]==0.29.0
+
+# Async PostgreSQL driver
+asyncpg==0.29.0
+
+# Password hashing
+bcrypt==4.0.1
+passlib[bcrypt]==1.7.4
+
+# JWT
+python-jose[cryptography]==3.3.0
+
+# Environment variables
+python-dotenv==1.0.1
+
+# Pydantic v2 (comes with FastAPI but pinned for clarity)
+pydantic[email]==2.7.1
+
+# XLSX parsing for bulk creation
+openpyxl==3.1.2
+
+# Multipart form (needed for file uploads)
+python-multipart==0.0.9
